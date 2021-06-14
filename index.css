@@ -1,0 +1,11 @@
+#goban-container > div {
+  position: relative;
+}
+
+#goban-container > div > canvas:first-child {
+  position: absolute; 
+}
+
+#goban-container > div > canvas:last-child {
+  position: absolute;
+}
